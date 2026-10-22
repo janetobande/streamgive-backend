@@ -7,9 +7,9 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "node api.js && tsx watch src/index.ts",
-    "build": "node api.js && tsc -p tsconfig.json",
-    "start": "node api.js && node dist/index.js",
+    "dev": "node init && tsx watch src/index.ts",
+    "build": "node init && tsc -p tsconfig.json",
+    "start": "node init && node dist/index.js",
     "lint": "eslint .",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
